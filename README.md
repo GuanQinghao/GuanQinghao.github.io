@@ -38,4 +38,4 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 
 [Link](/boke20191014.md)
-[iPhone、iPod touch、iPad、Apple watch屏幕参数](apple_display.md)
+[iPhone、iPod touch、iPad、Apple watch屏幕参数](/apple_display.md)
