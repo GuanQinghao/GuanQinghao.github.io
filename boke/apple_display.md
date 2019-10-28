@@ -39,5 +39,5 @@ iPad Pro|12.9寸|1024X1366|2048X2732|264
 :---:|:---:|:---:|:---:|:---:|:---:
 Apple Watch Series 1/2/3|38mm|136X170|272X340|-
 Apple Watch Series 1/2/3|42mm|156X195|312X390|-
-Apple Watch Series 4|40mm|162X197|324X394|-
-Apple Watch Series 4|44mm|184X224|368X448|-
+Apple Watch Series 4/5|40mm|162X197|324X394|-
+Apple Watch Series 4/5|44mm|184X224|368X448|-
