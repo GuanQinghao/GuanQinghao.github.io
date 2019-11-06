@@ -2,5 +2,5 @@
 
 
 #### iPhone和iPad屏幕 
-[查看](/2019_11_06_apple_display.md)
+[查看](/2019/11/06/apple_display.md)
 
