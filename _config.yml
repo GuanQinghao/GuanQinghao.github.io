@@ -1,5 +1,1 @@
 theme: jekyll-theme-cayman
-webrick:
-  headers:
-    My-Header: 凌晨派
-    My-Other-Header: 凌晨派
