@@ -41,3 +41,11 @@ Apple Watch Series 1/2/3|38mm|136X170|272X340|-
 Apple Watch Series 1/2/3|42mm|156X195|312X390|-
 Apple Watch Series 4/5|40mm|162X197|324X394|-
 Apple Watch Series 4/5|44mm|184X224|368X448|-
+
+
+### 启动页
+
+设备|横屏(pt)|竖屏(pt)|边距(pt)|其他
+:---:|:---:|:---:|:---:|:---:|:---:
+iPhone|896X472|472X896|58|-
+iPad|1406X1024|1024X1406|382|-
