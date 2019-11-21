@@ -1,4 +1,1 @@
-[**BLOG**](/index.md) [APP](/app.md) [RESUME](/about.md) [CONTACT](/contact.md) 
-
-#### iPhone和iPad屏幕 
-[查看](/2019/11/06/apple_display.html)
+ #### [iPhone和iPad屏幕](http://uter.top/2019_11_06_apple_display.html)
