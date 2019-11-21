@@ -22,4 +22,4 @@
 
 4)  选择工程中的 Assets.xcassets 文件夹中的 LaunchImage，在右侧工具栏中根据应用程序使用场景选择系统版本和屏幕方向，这里选择的是 iOS 8.0 and Later 仅 iPhone 竖屏。将不同屏幕的启动页图片对应拖拽到 LaunchImage 文件夹即可
 
-![](2018021203.png)
+![](http://uter.top/images/2018021203.png)
