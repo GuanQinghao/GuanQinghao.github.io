@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>pdf_terms</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+  body {
+    padding: 2cm; 
+  }
+}
+</style>
+
+
+</head>
+
+<body>
+
+<p>欢迎您下载使用美克PDF应用程序（以下统称为“应用程序”）。</p>
+
+<p>本应用程序是面向全年龄段用户提供的一款制作PDF文件的应用程序。</p>
+
+<p>凡是下载、浏览、注册、使用本应用程序的个人或单位均视为本应用程序的用户（以下统称为“您”或“用户”）。特别提醒在使用本应用程序前，请您认真阅读本协议，确保充分理解本协议中各条款。请您审慎阅读并选择接受或不接受本协议。注册、登录、使用等行为将视为对本协议的接受，并同意接受本协议各项条款的约束。</p>
+
+<p>本协议约定开发者GuanQinghao（以下简称“我们”）与您关于应用程序所提供服务（以下简称“服务”）的权利和义务。</p>
+
+<p>我们会根据用户需求或产品需要更新本协议，更新后的协议条款一旦公布即代替原来的协议条款，恕不再另行通知。您可在本应用程序中查阅最新版协议条款。在修改协议条款后，如果您不接受修改后的条款，请立即停止使用本应用程序提供的服务，您继续使用服务将被视为接受修改后的协议。</p>
+
+<p>第一条 账号注册
+1、您在使用本应用程序前需要注册账号。账号应当使用手机号码绑定注册，我们会根据用户需求或产品需要对账号注册和绑定的方式进行变更，而无须事先通知您。 
+2、您注册时应当授权本应用程序使用其个人信息注册账号，故完成注册即表明同意服务提取、公开及使用您的信息。 
+3、在注册及使用本服务时，应用程序需要搜集能识别您身份的个人信息以便服务可以在必要时联系您，或为您提供更好的使用体验。本应用程序搜集的信息包括但不限于您的姓名、手机号、地址等，我们同意对这些信息的使用将受限于第三条用户个人隐私信息保护的约束。 </p>
+
+<p>第二条 可能收集的用户信息
+我们提供服务时，可能会收集、储存和使用下列与您有关的信息。如果您不提供相关信息，可能无法注册成为我们的用户或无法享受我们提供的某些服务，或者无法达到相关服务拟达到的效果。
+1、您提供的信息
+您在注册账户或使用我们的服务时，向我们提供的相关个人信息，例如电话号码、相册、位置信息等；您通过我们的服务向其他方提供的共享信息，以及您使用我们的服务时所储存的信息。
+2、其他方分享的您的信息
+其他方使用我们的服务时所提供的有关您的共享信息。
+3、我们获取的您的信息
+您使用服务时我们可能收集如下信息：
+日志信息，指您使用我们的服务时，系统可能通过cookies或其他方式自动采集的技术信息，包括：设备或软件信息，例如您的移动设备、网页浏览器或用于接入我们服务的其他程序所提供的配置信息、您的IP地址和移动设备所用的版本和设备识别码、您在使用我们服务时要求提供的其他信息和内容详情。
+位置信息，指您开启设备定位功能并使用我们基于位置提供的相关服务时，收集的有关您位置的信息。您可以通过关闭定位功能，停止对您的地理位置信息的收集。
+交易信息，指我们对您在应用程序中形成的交易数据信息进行分析并形成用户信用数据库。</p>
+
+<p>第三条 个人隐私信息保护
+1、如果我们发现或收到他人举报或投诉违反本协议约定的，我们有权不经通知您随时对相关内容，包括但不限于您的个人资料、发贴记录进行审查、删除，并视情节轻重对违规账号处以包括但不限于警告、账号封禁 、设备封禁 、功能封禁的处罚，并通知处理结果。 
+2、如果因违反协议被封禁，您可以自行与我们联系。其中，被实施功能封禁的账号会在封禁期届满后自动恢复被封禁功能。您可提交申诉，我们将对申诉进行审查，并自行合理判断决定是否变更处罚措施。 
+3、您理解并同意我们有权依合理判断对违反有关法律法规或本协议规定的行为进行处罚。对违法违规的行为或内容采取适当的法律行动，并依据法律法规保存有关信息向有关部门报告，您应承担由此而产生的一切法律责任。 
+4、您理解并同意，因违反本协议约定导致或产生的任何第三方主张的任何索赔、要求或损失，包括合理的律师费，您应当赔偿我们与合作公司、关联公司，并使之免受损害。 </p>
+
+<p>第四条 发布内容规范
+1、本条所述内容是指使用服务的过程中所制作、上载、复制、发布、传播的任何内容，包括但不限于账号头像、名称、个人说明等注册信息及认证资料，或文字、语音、图片、视频、图文等发送、回复或自动回复消息和相关链接页面，以及其他使用账号或本服务所产生的内容。 
+2、您不得利用本应用程序中的服务制作、上载、复制、发布、传播如下法律、法规和政策禁止的内容： 
+(1) 反对宪法所确定的基本原则的； 
+(2) 危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的； 
+(3) 损害国家荣誉和利益的； 
+(4) 煽动民族仇恨、民族歧视，破坏民族团结的； 
+(5) 破坏国家宗教政策，宣扬邪教和封建迷信的； 
+(6) 散布谣言，扰乱社会秩序，破坏社会稳定的； 
+(7) 散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的； 
+(8) 侮辱或者诽谤他人，侵害他人合法权益的； 
+(9) 含有法律、行政法规禁止的其他内容的信息。 
+3、您不得利用本应用程序提供的服务制作、上载、复制、发布、传播如下干扰服务正常运营，以及侵犯其他用户或第三方合法权益的内容： 
+(1) 含有任何性或性暗示的； 
+(2) 含有辱骂、恐吓、威胁内容的； 
+(3) 含有骚扰、垃圾广告、恶意信息、诱骗信息的； 
+(4) 涉及他人隐私、个人信息或资料的； 
+(5) 侵害他人名誉权、肖像权、知识产权、商业秘密等合法权利的； 
+(6) 含有其他干扰本服务正常运营和侵犯其他用户或第三方合法权益内容的信息。 
+4、您的言行不得违反《计算机信息网络国际联网安全保护管理办法》、《互联网信息服务管理办法》、《互联网电子公告服务管理规定》、《维护互联网安全的决定》、《互联网新闻信息服务管理规定》以及其他相关法律法规。</p>
+
+<p>第五条 使用规则
+1、您在本服务中或通过本服务所传送、发布的任何内容并不反映或代表，也不得被视为反映或代表我们的观点、立场或政策，对此我们不承担任何责任。 
+2、您不得利用我们的服务进行如下行为： 
+(1) 提交、发布虚假信息，或盗用他人头像或资料，冒充、利用他人名义的；
+(2) 强制、诱导其他用户关注、点击链接页面或分享信息的； 
+(3) 虚构事实、隐瞒真相以误导、欺骗他人的； 
+(4) 利用技术手段批量建立虚假账号的； 
+(5) 利用本服务从事任何违法犯罪活动的； 
+(6) 制作、发布与以上行为相关的方法、工具，或对此类方法、工具进行运营或传播，无论这些行为是否为商业目的； 
+(7) 其他违反法律法规规定、侵犯其他用户合法权益、干扰我们正常运营或服务未明示授权的行为。 
+3、您须对服务传送信息的真实性、合法性、无害性、准确性、有效性等全权负责，与所传播的信息相关的任何法律责任由您自行承担，与我们无关。 
+如因此给我们或第三方造成损害的，您应当依法予以赔偿。 
+4、我们提供的服务中可能包括广告，您同意在使用过程中显示我们和第三方供应商、合作伙伴提供的广告。除法律法规明确规定外，您应自行对依该广告信息进行的交易负责。对您因依该广告信息进行的交易或前述广告商提供的内容而遭受的损失或损害，我们不承担任何责任。 </p>
+
+<p>第六条 其他
+1、我们郑重提醒您注意本协议中关于免责和限制权利的条款，请您仔细阅读，自主考虑风险。未成年人应在法定监护人的陪同下阅读本协议。 
+2、本协议的效力、解释及纠纷的解决，适用于中华人民共和国法律。若您和我们之间发生任何纠纷或争议，首先应友好协商解决，协商不成的，您同意将纠纷或争议提交我们所在地有管辖权的人民法院管辖。 
+3、本协议的任何条款无论因何种原因无效或不具可执行性，其余条款仍有效，对双方具有约束力。
+4、本应用程序的所有权、经营权、管理权均属我们所有。</p>
+
+<p>本协议版权由开发者GuanQinghao所有，我们保留一切对本协议解释的权利。</p>
+
+
+
+
+</body>
+
+</html>
