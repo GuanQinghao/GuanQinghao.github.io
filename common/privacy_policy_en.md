@@ -9,7 +9,7 @@ This agreement stipulates the rights and obligations of the developer GuanQingha
 We will update this agreement according to user needs or product needs. Once the updated agreement terms are published, they will replace the original agreement terms without further notice. You can check the latest version of the agreement terms in this application. After modifying the terms of the agreement, if you do not accept the modified terms, please stop using the services provided by this application immediately, and your continued use of the services will be deemed to accept the modified agreement.
 
 
-## The first account registration
+## Article 1 Account registration
 
 1. You need to register an account before using this application. The account should be registered with a mobile phone number. We will change the method of account registration and binding according to user needs or product needs without prior notice to you.
 
@@ -55,37 +55,37 @@ Transaction information means that we analyze the transaction data information f
  
 2. You may not use the services in this application to make, upload, copy, publish, or disseminate the following contents prohibited by laws, regulations and policies:
 
-(1) Opposing the basic principles established by the Constitution;
+	(1) Opposing the basic principles established by the Constitution;
 
-(2) Endangering national security, leaking state secrets, subverting state power, and undermining national unity;
+	(2) Endangering national security, leaking state secrets, subverting state power, and undermining national unity;
 
-(3) Damage to national honor and interests;
+	(3) Damage to national honor and interests;
 
-(4) Inciting ethnic hatred, ethnic discrimination, and undermining ethnic unity;
+	(4) Inciting ethnic hatred, ethnic discrimination, and undermining ethnic unity;
 
-(5) Undermining the state's religious policies and promoting cults and feudal superstition;
+	(5) Undermining the state's religious policies and promoting cults and feudal superstition;
 
-(6) Spreading rumors, disturbing social order, and undermining social stability;
+	(6) Spreading rumors, disturbing social order, and undermining social stability;
 
-(7) Spreading obscenity, pornography, gambling, violence, murder, terror or instigating crime;
+	(7) Spreading obscenity, pornography, gambling, violence, murder, terror or instigating crime;
 
-(8) Insulting or slandering others, infringing on the legal rights of others;
+	(8) Insulting or slandering others, infringing on the legal rights of others;
 
-(9) Information containing other content prohibited by laws and administrative regulations.
+	(9) Information containing other content prohibited by laws and administrative regulations.
 
 3. You may not use the services provided by this application to produce, upload, copy, publish, or disseminate the following content that interferes with the normal operation of the service and infringes the legitimate rights and interests of other users or third parties:
 
-(1) Contains any sexual or sexual suggestion;
+	(1) Contains any sexual or sexual suggestion;
 
-(2) Contains abusive, intimidating, or threatening content;
+	(2) Contains abusive, intimidating, or threatening content;
 
-(3) Containing harassment, spam, malicious information, or deceptive information;
+	(3) Containing harassment, spam, malicious information, or deceptive information;
 
-(4) Involving the privacy, personal information or data of others;
+	(4) Involving the privacy, personal information or data of others;
 
-(5) Infringement of other legal rights such as reputation rights, portrait rights, intellectual property rights, and trade secrets;
+	(5) Infringement of other legal rights such as reputation rights, portrait rights, intellectual property rights, and trade secrets;
 
-(6) Contain other information that interferes with the normal operation of this service and infringes on the legitimate rights and interests of other users or third parties.
+	(6) Contain other information that interferes with the normal operation of this service and infringes on the legitimate rights and interests of other users or third parties.
 
 4. Your words and deeds must not violate the "Administrative Measures for the Security Protection of Computer Information Network International Networking", "Administrative Measures on Internet Information Services", "Administrative Regulations on Internet Electronic Bulletin Services", "Decisions to Maintain Internet Security", "Administration of Internet News Information Services Regulations and other relevant laws and regulations.
 
@@ -95,19 +95,19 @@ Transaction information means that we analyze the transaction data information f
 
 2. You may not use our services to do the following:
 
-(1) Submitting or publishing false information, or embezzling other people's avatars or materials, impersonating or using the names of others;
+	(1) Submitting or publishing false information, or embezzling other people's avatars or materials, impersonating or using the names of others;
 
-(2) Forcing or inducing other users to follow, click on linked pages or share information;
+	(2) Forcing or inducing other users to follow, click on linked pages or share information;
 
-(3) Fictional facts, concealing the truth to mislead or deceive others;
+	(3) Fictional facts, concealing the truth to mislead or deceive others;
 
-(4) Using technical means to establish false accounts in batches;
+	(4) Using technical means to establish false accounts in batches;
 
-(5) Use this service to engage in any illegal or criminal activity;
+	(5) Use this service to engage in any illegal or criminal activity;
 
-(6) Making and publishing methods and tools related to the above behaviors, or operating or disseminating such methods and tools, regardless of whether these behaviors are for commercial purposes;
+	(6) Making and publishing methods and tools related to the above behaviors, or operating or disseminating such methods and tools, regardless of whether these behaviors are for commercial purposes;
 
-(7) Other acts that violate laws and regulations, infringe on the legitimate rights and interests of other users, interfere with our normal operations, or services without express authorization.
+	(7) Other acts that violate laws and regulations, infringe on the legitimate rights and interests of other users, interfere with our normal operations, or services without express authorization.
 
 3. You are solely responsible for the authenticity, legality, harmlessness, accuracy, and effectiveness of the information transmitted by the service, and any legal responsibilities related to the information disseminated shall be borne by you and have nothing to do with us.
 
